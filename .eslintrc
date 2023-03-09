@@ -1,6 +1,6 @@
 {
   "plugins": ["html"],
-  "extends": ["react-app", "plugin:import/errors", "plugin:import/warnings"],
+  "extends": ["react-app", "plugin:import/errors", "plugin:import/warnings",'eslint:recommended'],
   "rules": {
     "jsx-a11y/href-no-hash": 0,
     "semi": ["error", "never"],
