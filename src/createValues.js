@@ -2,6 +2,7 @@
 import { connect } from 'react-redux'
 import type { Structure } from './types'
 import type { Config } from './values.types'
+import { type Config } from './values.types'
 import type { Props, DefaultProps } from './ConnectedFieldArray.types'
 
 export default function createValues({ getIn }: Structure<any, any>) {
