@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "plugin:import/errors", "plugin:import/warnings"],
+  "extends": ["react-app", "plugin:import/errors", "plugin:import/warnings", "html"],
   "rules": {
     "jsx-a11y/href-no-hash": 0,
     "semi": ["error", "never"],
@@ -14,6 +14,7 @@
     ]
   },
   "settings": {
-    "import/resolver": "webpack"
+    "import/resolver": "webpack",
+    "html/html-extensions": [".html", ".we"],
   }
 }
